@@ -14,7 +14,7 @@ const Home = () => {
 
   // Example: Different speed factors
   const heroY = useTransform(scrollY, [0, 500], [0, -100]); // slower
-  const featureY = useTransform(scrollY, [0, 500], [0, -50]);
+  
   const aboutY = useTransform(scrollY, [0, 500], [0, -30]);
 
   return (
