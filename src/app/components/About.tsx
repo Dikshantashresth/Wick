@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import { Clock, Target, DollarSign } from "lucide-react"; // Assassin-style icons
 import * as motion from "motion/react-client";
 
